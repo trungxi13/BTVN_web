@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .body{
+            background-color: white;
+            
+        }
+        .div{
+            background-color: black;
+            height: 500px;
+            color: white;
+            width: 100%;
+
+        }
+        .div1{
+            width: 24.5%;
+            height: 100px;
+            display: inline-block;
+            text-align: center;
+            padding-top: 20px;
+            font-size: 20px;
+        }
+        .div2{
+            text-align: center;
+
+        }
+        .div3{
+            width: 24.5%;
+            height: 200px;
+            display: inline-block;
+            padding-top: 30px;
+        }
+        .div1:hover{
+             text-decoration: underline;
+        }
+        .div3:hover .image {
+             opacity: 0.3;
+             
+            
+        }
+        .image{
+            opacity: 1;
+            width: 100%;
+            height: 200px;
+        }
+        .chu{
+            text-align: center;
+        }
+        .top{
+            top:50%;
+            left:30%;
+
+        }
+        .middle {
+            opacity: 0;
+            position: absolute;
+             text-align: center;
+         }
+         .absolute{
+             position: absolute;
+         }
+         .relative{
+             position: relative;
+         }
+        .div3:hover .middle {
+            opacity: 1;
+        }
+        .text {
+            color: white;
+            font-size: 16px;
+            padding: 16px 32px;
+        }
+    </style>
+</head>
+<body>
+    <div class="div">
+        <div class="div1">
+            Home
+        </div>
+        <div class="div1">
+            About
+        </div>
+        <div class="div1">
+            Service
+        </div>
+        <div class="div1">
+            Team
+        </div>
+        <div class="div2">
+            SORA GALLERY
+        </div>
+        <div class="div3 relative">
+            <img src="https://i.loli.net/2019/11/23/cnKl1Ykd5rZCVwm.jpg" class="image" >
+            <div class="middle top absolute">
+                <div class="text">
+                    Star
+                </div>
+              </div>
+
+        </div>
+        <div class="div3 relative">
+            <img src="https://i.loli.net/2019/11/16/FLnzi5Kq4tkRZSm.jpg"class="image">
+            <div class="middle top absolute">
+                <div class="text">
+                    Sun
+                </div>
+              </div>
+
+        </div>
+        <div class="div3 relative">
+            <img src="https://i.loli.net/2019/10/18/uXF1Kx7lzELB6wf.jpg"class="image">
+            <div class="middle top absolute">
+                <div class="text">
+                    Tree
+                </div>
+              </div>
+        </div>
+        <div class="div3 relative">
+            <img src="https://i.loli.net/2019/10/18/buDT4YS6zUMfHst.jpg"class="image">
+            <div class="middle top absolute">
+                <div class="text">
+                    Sky
+                </div>
+              </div>
+        </div>
+    </div>
+    
+</body>
+</html>
